@@ -1,0 +1,13 @@
+name: opsd_ninja_pv_wind_profiles
+
+channels:
+  - conda-forge
+  - anaconda
+
+dependencies:
+  - python=3.5
+  - pandas=0.19.2
+  - xlrd  # pandas: excel i/o
+  - openpyxl  # pandas: excel i/o
+  - notebook  # jupyter notebook
+  - pyyaml

@@ -1,0 +1,1474 @@
+{
+    "keywords": [
+        "time series",
+        "power systems",
+        "renewables",
+        "wind",
+        "solar",
+        "pv"
+    ],
+    "licenses": [
+        {
+            "version": 4.0,
+            "id": "cc-by-nc-4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+            "name": "Creative Commons Attribution-NonCommercial"
+        }
+    ],
+    "documentation": "https://github.com/renewables.ninja/datapackage_ninja_european_capacity_factors/blob/{version}/main.ipynb",
+    "contributors": [
+        {
+            "email": "stefan.pfenninger@usys.ethz.ch",
+            "web": "https://www.renewables.ninja/",
+            "name": "Stefan Pfenninger"
+        }
+    ],
+    "version": "{version}",
+    "last_changes": "{changes}",
+    "description": "Simulated wind and PV capacity factors",
+    "sources": [
+        {
+            "web": "https://www.renewables.ninja/",
+            "name": "Renewables.ninja"
+        }
+    ],
+    "title": "Renewables.ninja European Capacity Factors",
+    "resources": [
+        {
+            "mediatype": "text/csv",
+            "encoding": "UTF8",
+            "schema": {
+                "missingValue": "",
+                "fields": [
+                    {
+                        "format": "fmt:%Y-%m-%dT%H%M%SZ",
+                        "opsd-contentfilter": true,
+                        "description": "Start of time period in Coordinated Universal Time",
+                        "type": "datetime",
+                        "name": "time"
+                    },
+                    {
+                        "name": "AL_pv_national_current",
+                        "description": "Nationally-aggregated current pv generation capacity factor in Albania",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "AL",
+                            "Attribute": "current",
+                            "Variable": "pv_national"
+                        }
+                    },
+                    {
+                        "name": "AT_pv_national_current",
+                        "description": "Nationally-aggregated current pv generation capacity factor in Austria",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "AT",
+                            "Attribute": "current",
+                            "Variable": "pv_national"
+                        }
+                    },
+                    {
+                        "name": "AT_wind_national_current",
+                        "description": "Nationally-aggregated current wind generation capacity factor in Austria",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "AT",
+                            "Attribute": "current",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "AT_wind_national_near-termfuture",
+                        "description": "Nationally-aggregated near-term future wind generation capacity factor in Austria",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "AT",
+                            "Attribute": "near-termfuture",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "BA_pv_national_current",
+                        "description": "Nationally-aggregated current pv generation capacity factor in Bosnia and Herzegovina",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "BA",
+                            "Attribute": "current",
+                            "Variable": "pv_national"
+                        }
+                    },
+                    {
+                        "name": "BE_pv_national_current",
+                        "description": "Nationally-aggregated current pv generation capacity factor in Belgium",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "BE",
+                            "Attribute": "current",
+                            "Variable": "pv_national"
+                        }
+                    },
+                    {
+                        "name": "BE_wind_national_current",
+                        "description": "Nationally-aggregated current wind generation capacity factor in Belgium",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "BE",
+                            "Attribute": "current",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "BE_wind_offshore_current",
+                        "description": "Offshore current wind generation capacity factor in Belgium",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "BE",
+                            "Attribute": "current",
+                            "Variable": "wind_offshore"
+                        }
+                    },
+                    {
+                        "name": "BE_wind_onshore_current",
+                        "description": "Onshore current wind generation capacity factor in Belgium",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "BE",
+                            "Attribute": "current",
+                            "Variable": "wind_onshore"
+                        }
+                    },
+                    {
+                        "name": "BE_wind_national_long-termfuture",
+                        "description": "Nationally-aggregated long-term future wind generation capacity factor in Belgium",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "BE",
+                            "Attribute": "long-termfuture",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "BE_wind_national_near-termfuture",
+                        "description": "Nationally-aggregated near-term future wind generation capacity factor in Belgium",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "BE",
+                            "Attribute": "near-termfuture",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "BE_wind_offshore_near-termfuture",
+                        "description": "Offshore near-term future wind generation capacity factor in Belgium",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "BE",
+                            "Attribute": "near-termfuture",
+                            "Variable": "wind_offshore"
+                        }
+                    },
+                    {
+                        "name": "BE_wind_onshore_near-termfuture",
+                        "description": "Onshore near-term future wind generation capacity factor in Belgium",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "BE",
+                            "Attribute": "near-termfuture",
+                            "Variable": "wind_onshore"
+                        }
+                    },
+                    {
+                        "name": "BG_pv_national_current",
+                        "description": "Nationally-aggregated current pv generation capacity factor in Bulgaria",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "BG",
+                            "Attribute": "current",
+                            "Variable": "pv_national"
+                        }
+                    },
+                    {
+                        "name": "BG_wind_national_current",
+                        "description": "Nationally-aggregated current wind generation capacity factor in Bulgaria",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "BG",
+                            "Attribute": "current",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "CH_pv_national_current",
+                        "description": "Nationally-aggregated current pv generation capacity factor in Switzerland",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "CH",
+                            "Attribute": "current",
+                            "Variable": "pv_national"
+                        }
+                    },
+                    {
+                        "name": "CH_wind_national_current",
+                        "description": "Nationally-aggregated current wind generation capacity factor in Switzerland",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "CH",
+                            "Attribute": "current",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "CY_pv_national_current",
+                        "description": "Nationally-aggregated current pv generation capacity factor in Cyprus",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "CY",
+                            "Attribute": "current",
+                            "Variable": "pv_national"
+                        }
+                    },
+                    {
+                        "name": "CY_wind_national_current",
+                        "description": "Nationally-aggregated current wind generation capacity factor in Cyprus",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "CY",
+                            "Attribute": "current",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "CZ_pv_national_current",
+                        "description": "Nationally-aggregated current pv generation capacity factor in Czech Republic",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "CZ",
+                            "Attribute": "current",
+                            "Variable": "pv_national"
+                        }
+                    },
+                    {
+                        "name": "CZ_wind_national_current",
+                        "description": "Nationally-aggregated current wind generation capacity factor in Czech Republic",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "CZ",
+                            "Attribute": "current",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "DE_pv_national_current",
+                        "description": "Nationally-aggregated current pv generation capacity factor in Germany",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "DE",
+                            "Attribute": "current",
+                            "Variable": "pv_national"
+                        }
+                    },
+                    {
+                        "name": "DE_wind_national_current",
+                        "description": "Nationally-aggregated current wind generation capacity factor in Germany",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "DE",
+                            "Attribute": "current",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "DE_wind_offshore_current",
+                        "description": "Offshore current wind generation capacity factor in Germany",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "DE",
+                            "Attribute": "current",
+                            "Variable": "wind_offshore"
+                        }
+                    },
+                    {
+                        "name": "DE_wind_onshore_current",
+                        "description": "Onshore current wind generation capacity factor in Germany",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "DE",
+                            "Attribute": "current",
+                            "Variable": "wind_onshore"
+                        }
+                    },
+                    {
+                        "name": "DE_wind_national_long-termfuture",
+                        "description": "Nationally-aggregated long-term future wind generation capacity factor in Germany",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "DE",
+                            "Attribute": "long-termfuture",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "DE_wind_national_near-termfuture",
+                        "description": "Nationally-aggregated near-term future wind generation capacity factor in Germany",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "DE",
+                            "Attribute": "near-termfuture",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "DE_wind_offshore_near-termfuture",
+                        "description": "Offshore near-term future wind generation capacity factor in Germany",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "DE",
+                            "Attribute": "near-termfuture",
+                            "Variable": "wind_offshore"
+                        }
+                    },
+                    {
+                        "name": "DE_wind_onshore_near-termfuture",
+                        "description": "Onshore near-term future wind generation capacity factor in Germany",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "DE",
+                            "Attribute": "near-termfuture",
+                            "Variable": "wind_onshore"
+                        }
+                    },
+                    {
+                        "name": "DK_pv_national_current",
+                        "description": "Nationally-aggregated current pv generation capacity factor in Denmark",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "DK",
+                            "Attribute": "current",
+                            "Variable": "pv_national"
+                        }
+                    },
+                    {
+                        "name": "DK_wind_national_current",
+                        "description": "Nationally-aggregated current wind generation capacity factor in Denmark",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "DK",
+                            "Attribute": "current",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "DK_wind_offshore_current",
+                        "description": "Offshore current wind generation capacity factor in Denmark",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "DK",
+                            "Attribute": "current",
+                            "Variable": "wind_offshore"
+                        }
+                    },
+                    {
+                        "name": "DK_wind_onshore_current",
+                        "description": "Onshore current wind generation capacity factor in Denmark",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "DK",
+                            "Attribute": "current",
+                            "Variable": "wind_onshore"
+                        }
+                    },
+                    {
+                        "name": "DK_wind_national_long-termfuture",
+                        "description": "Nationally-aggregated long-term future wind generation capacity factor in Denmark",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "DK",
+                            "Attribute": "long-termfuture",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "DK_wind_national_near-termfuture",
+                        "description": "Nationally-aggregated near-term future wind generation capacity factor in Denmark",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "DK",
+                            "Attribute": "near-termfuture",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "EE_pv_national_current",
+                        "description": "Nationally-aggregated current pv generation capacity factor in Estonia",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "EE",
+                            "Attribute": "current",
+                            "Variable": "pv_national"
+                        }
+                    },
+                    {
+                        "name": "EE_wind_national_current",
+                        "description": "Nationally-aggregated current wind generation capacity factor in Estonia",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "EE",
+                            "Attribute": "current",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "EE_wind_national_long-termfuture",
+                        "description": "Nationally-aggregated long-term future wind generation capacity factor in Estonia",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "EE",
+                            "Attribute": "long-termfuture",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "ES_pv_national_current",
+                        "description": "Nationally-aggregated current pv generation capacity factor in Spain",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "ES",
+                            "Attribute": "current",
+                            "Variable": "pv_national"
+                        }
+                    },
+                    {
+                        "name": "ES_wind_national_current",
+                        "description": "Nationally-aggregated current wind generation capacity factor in Spain",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "ES",
+                            "Attribute": "current",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "ES_wind_national_long-termfuture",
+                        "description": "Nationally-aggregated long-term future wind generation capacity factor in Spain",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "ES",
+                            "Attribute": "long-termfuture",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "ES_wind_national_near-termfuture",
+                        "description": "Nationally-aggregated near-term future wind generation capacity factor in Spain",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "ES",
+                            "Attribute": "near-termfuture",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "FI_pv_national_current",
+                        "description": "Nationally-aggregated current pv generation capacity factor in Finland",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "FI",
+                            "Attribute": "current",
+                            "Variable": "pv_national"
+                        }
+                    },
+                    {
+                        "name": "FI_wind_national_current",
+                        "description": "Nationally-aggregated current wind generation capacity factor in Finland",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "FI",
+                            "Attribute": "current",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "FI_wind_offshore_current",
+                        "description": "Offshore current wind generation capacity factor in Finland",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "FI",
+                            "Attribute": "current",
+                            "Variable": "wind_offshore"
+                        }
+                    },
+                    {
+                        "name": "FI_wind_onshore_current",
+                        "description": "Onshore current wind generation capacity factor in Finland",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "FI",
+                            "Attribute": "current",
+                            "Variable": "wind_onshore"
+                        }
+                    },
+                    {
+                        "name": "FI_wind_national_long-termfuture",
+                        "description": "Nationally-aggregated long-term future wind generation capacity factor in Finland",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "FI",
+                            "Attribute": "long-termfuture",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "FI_wind_national_near-termfuture",
+                        "description": "Nationally-aggregated near-term future wind generation capacity factor in Finland",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "FI",
+                            "Attribute": "near-termfuture",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "FI_wind_offshore_near-termfuture",
+                        "description": "Offshore near-term future wind generation capacity factor in Finland",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "FI",
+                            "Attribute": "near-termfuture",
+                            "Variable": "wind_offshore"
+                        }
+                    },
+                    {
+                        "name": "FI_wind_onshore_near-termfuture",
+                        "description": "Onshore near-term future wind generation capacity factor in Finland",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "FI",
+                            "Attribute": "near-termfuture",
+                            "Variable": "wind_onshore"
+                        }
+                    },
+                    {
+                        "name": "FR_pv_national_current",
+                        "description": "Nationally-aggregated current pv generation capacity factor in France",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "FR",
+                            "Attribute": "current",
+                            "Variable": "pv_national"
+                        }
+                    },
+                    {
+                        "name": "FR_wind_national_current",
+                        "description": "Nationally-aggregated current wind generation capacity factor in France",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "FR",
+                            "Attribute": "current",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "FR_wind_offshore_current",
+                        "description": "Offshore current wind generation capacity factor in France",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "FR",
+                            "Attribute": "current",
+                            "Variable": "wind_offshore"
+                        }
+                    },
+                    {
+                        "name": "FR_wind_onshore_current",
+                        "description": "Onshore current wind generation capacity factor in France",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "FR",
+                            "Attribute": "current",
+                            "Variable": "wind_onshore"
+                        }
+                    },
+                    {
+                        "name": "FR_wind_national_long-termfuture",
+                        "description": "Nationally-aggregated long-term future wind generation capacity factor in France",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "FR",
+                            "Attribute": "long-termfuture",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "FR_wind_national_near-termfuture",
+                        "description": "Nationally-aggregated near-term future wind generation capacity factor in France",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "FR",
+                            "Attribute": "near-termfuture",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "FR_wind_offshore_near-termfuture",
+                        "description": "Offshore near-term future wind generation capacity factor in France",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "FR",
+                            "Attribute": "near-termfuture",
+                            "Variable": "wind_offshore"
+                        }
+                    },
+                    {
+                        "name": "FR_wind_onshore_near-termfuture",
+                        "description": "Onshore near-term future wind generation capacity factor in France",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "FR",
+                            "Attribute": "near-termfuture",
+                            "Variable": "wind_onshore"
+                        }
+                    },
+                    {
+                        "name": "GB_pv_national_current",
+                        "description": "Nationally-aggregated current pv generation capacity factor in Great Britain",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "GB",
+                            "Attribute": "current",
+                            "Variable": "pv_national"
+                        }
+                    },
+                    {
+                        "name": "GB_wind_national_current",
+                        "description": "Nationally-aggregated current wind generation capacity factor in Great Britain",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "GB",
+                            "Attribute": "current",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "GB_wind_offshore_current",
+                        "description": "Offshore current wind generation capacity factor in Great Britain",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "GB",
+                            "Attribute": "current",
+                            "Variable": "wind_offshore"
+                        }
+                    },
+                    {
+                        "name": "GB_wind_onshore_current",
+                        "description": "Onshore current wind generation capacity factor in Great Britain",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "GB",
+                            "Attribute": "current",
+                            "Variable": "wind_onshore"
+                        }
+                    },
+                    {
+                        "name": "GB_wind_national_long-termfuture",
+                        "description": "Nationally-aggregated long-term future wind generation capacity factor in Great Britain",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "GB",
+                            "Attribute": "long-termfuture",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "GB_wind_national_near-termfuture",
+                        "description": "Nationally-aggregated near-term future wind generation capacity factor in Great Britain",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "GB",
+                            "Attribute": "near-termfuture",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "GB_wind_offshore_near-termfuture",
+                        "description": "Offshore near-term future wind generation capacity factor in Great Britain",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "GB",
+                            "Attribute": "near-termfuture",
+                            "Variable": "wind_offshore"
+                        }
+                    },
+                    {
+                        "name": "GB_wind_onshore_near-termfuture",
+                        "description": "Onshore near-term future wind generation capacity factor in Great Britain",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "GB",
+                            "Attribute": "near-termfuture",
+                            "Variable": "wind_onshore"
+                        }
+                    },
+                    {
+                        "name": "GR_pv_national_current",
+                        "description": "Nationally-aggregated current pv generation capacity factor in Greece",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "GR",
+                            "Attribute": "current",
+                            "Variable": "pv_national"
+                        }
+                    },
+                    {
+                        "name": "GR_wind_national_current",
+                        "description": "Nationally-aggregated current wind generation capacity factor in Greece",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "GR",
+                            "Attribute": "current",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "GR_wind_national_long-termfuture",
+                        "description": "Nationally-aggregated long-term future wind generation capacity factor in Greece",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "GR",
+                            "Attribute": "long-termfuture",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "HR_pv_national_current",
+                        "description": "Nationally-aggregated current pv generation capacity factor in Croatia",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "HR",
+                            "Attribute": "current",
+                            "Variable": "pv_national"
+                        }
+                    },
+                    {
+                        "name": "HR_wind_national_current",
+                        "description": "Nationally-aggregated current wind generation capacity factor in Croatia",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "HR",
+                            "Attribute": "current",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "HU_pv_national_current",
+                        "description": "Nationally-aggregated current pv generation capacity factor in Hungary",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "HU",
+                            "Attribute": "current",
+                            "Variable": "pv_national"
+                        }
+                    },
+                    {
+                        "name": "HU_wind_national_current",
+                        "description": "Nationally-aggregated current wind generation capacity factor in Hungary",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "HU",
+                            "Attribute": "current",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "IE_pv_national_current",
+                        "description": "Nationally-aggregated current pv generation capacity factor in Ireland",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "IE",
+                            "Attribute": "current",
+                            "Variable": "pv_national"
+                        }
+                    },
+                    {
+                        "name": "IE_wind_national_current",
+                        "description": "Nationally-aggregated current wind generation capacity factor in Ireland",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "IE",
+                            "Attribute": "current",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "IE_wind_offshore_current",
+                        "description": "Offshore current wind generation capacity factor in Ireland",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "IE",
+                            "Attribute": "current",
+                            "Variable": "wind_offshore"
+                        }
+                    },
+                    {
+                        "name": "IE_wind_onshore_current",
+                        "description": "Onshore current wind generation capacity factor in Ireland",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "IE",
+                            "Attribute": "current",
+                            "Variable": "wind_onshore"
+                        }
+                    },
+                    {
+                        "name": "IE_wind_national_long-termfuture",
+                        "description": "Nationally-aggregated long-term future wind generation capacity factor in Ireland",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "IE",
+                            "Attribute": "long-termfuture",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "IE_wind_national_near-termfuture",
+                        "description": "Nationally-aggregated near-term future wind generation capacity factor in Ireland",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "IE",
+                            "Attribute": "near-termfuture",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "IE_wind_offshore_near-termfuture",
+                        "description": "Offshore near-term future wind generation capacity factor in Ireland",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "IE",
+                            "Attribute": "near-termfuture",
+                            "Variable": "wind_offshore"
+                        }
+                    },
+                    {
+                        "name": "IE_wind_onshore_near-termfuture",
+                        "description": "Onshore near-term future wind generation capacity factor in Ireland",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "IE",
+                            "Attribute": "near-termfuture",
+                            "Variable": "wind_onshore"
+                        }
+                    },
+                    {
+                        "name": "IT_pv_national_current",
+                        "description": "Nationally-aggregated current pv generation capacity factor in Italy",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "IT",
+                            "Attribute": "current",
+                            "Variable": "pv_national"
+                        }
+                    },
+                    {
+                        "name": "IT_wind_national_current",
+                        "description": "Nationally-aggregated current wind generation capacity factor in Italy",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "IT",
+                            "Attribute": "current",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "IT_wind_national_long-termfuture",
+                        "description": "Nationally-aggregated long-term future wind generation capacity factor in Italy",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "IT",
+                            "Attribute": "long-termfuture",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "IT_wind_national_near-termfuture",
+                        "description": "Nationally-aggregated near-term future wind generation capacity factor in Italy",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "IT",
+                            "Attribute": "near-termfuture",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "IT_wind_offshore_near-termfuture",
+                        "description": "Offshore near-term future wind generation capacity factor in Italy",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "IT",
+                            "Attribute": "near-termfuture",
+                            "Variable": "wind_offshore"
+                        }
+                    },
+                    {
+                        "name": "IT_wind_onshore_near-termfuture",
+                        "description": "Onshore near-term future wind generation capacity factor in Italy",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "IT",
+                            "Attribute": "near-termfuture",
+                            "Variable": "wind_onshore"
+                        }
+                    },
+                    {
+                        "name": "LT_pv_national_current",
+                        "description": "Nationally-aggregated current pv generation capacity factor in Lithuania",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "LT",
+                            "Attribute": "current",
+                            "Variable": "pv_national"
+                        }
+                    },
+                    {
+                        "name": "LT_wind_national_current",
+                        "description": "Nationally-aggregated current wind generation capacity factor in Lithuania",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "LT",
+                            "Attribute": "current",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "LT_wind_national_long-termfuture",
+                        "description": "Nationally-aggregated long-term future wind generation capacity factor in Lithuania",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "LT",
+                            "Attribute": "long-termfuture",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "LU_pv_national_current",
+                        "description": "Nationally-aggregated current pv generation capacity factor in Luxembourg",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "LU",
+                            "Attribute": "current",
+                            "Variable": "pv_national"
+                        }
+                    },
+                    {
+                        "name": "LU_wind_national_current",
+                        "description": "Nationally-aggregated current wind generation capacity factor in Luxembourg",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "LU",
+                            "Attribute": "current",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "LU_wind_national_near-termfuture",
+                        "description": "Nationally-aggregated near-term future wind generation capacity factor in Luxembourg",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "LU",
+                            "Attribute": "near-termfuture",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "LV_pv_national_current",
+                        "description": "Nationally-aggregated current pv generation capacity factor in Latvia",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "LV",
+                            "Attribute": "current",
+                            "Variable": "pv_national"
+                        }
+                    },
+                    {
+                        "name": "LV_wind_national_current",
+                        "description": "Nationally-aggregated current wind generation capacity factor in Latvia",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "LV",
+                            "Attribute": "current",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "MD_pv_national_current",
+                        "description": "Nationally-aggregated current pv generation capacity factor in Moldova",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "MD",
+                            "Attribute": "current",
+                            "Variable": "pv_national"
+                        }
+                    },
+                    {
+                        "name": "ME_pv_national_current",
+                        "description": "Nationally-aggregated current pv generation capacity factor in Montenegro",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "ME",
+                            "Attribute": "current",
+                            "Variable": "pv_national"
+                        }
+                    },
+                    {
+                        "name": "MK_pv_national_current",
+                        "description": "Nationally-aggregated current pv generation capacity factor in Macedonia",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "MK",
+                            "Attribute": "current",
+                            "Variable": "pv_national"
+                        }
+                    },
+                    {
+                        "name": "MK_wind_national_current",
+                        "description": "Nationally-aggregated current wind generation capacity factor in Macedonia",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "MK",
+                            "Attribute": "current",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "MT_pv_national_current",
+                        "description": "Nationally-aggregated current pv generation capacity factor in Malta",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "MT",
+                            "Attribute": "current",
+                            "Variable": "pv_national"
+                        }
+                    },
+                    {
+                        "name": "NL_pv_national_current",
+                        "description": "Nationally-aggregated current pv generation capacity factor in Netherlands",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "NL",
+                            "Attribute": "current",
+                            "Variable": "pv_national"
+                        }
+                    },
+                    {
+                        "name": "NL_wind_national_current",
+                        "description": "Nationally-aggregated current wind generation capacity factor in Netherlands",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "NL",
+                            "Attribute": "current",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "NL_wind_offshore_current",
+                        "description": "Offshore current wind generation capacity factor in Netherlands",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "NL",
+                            "Attribute": "current",
+                            "Variable": "wind_offshore"
+                        }
+                    },
+                    {
+                        "name": "NL_wind_onshore_current",
+                        "description": "Onshore current wind generation capacity factor in Netherlands",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "NL",
+                            "Attribute": "current",
+                            "Variable": "wind_onshore"
+                        }
+                    },
+                    {
+                        "name": "NL_wind_national_long-termfuture",
+                        "description": "Nationally-aggregated long-term future wind generation capacity factor in Netherlands",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "NL",
+                            "Attribute": "long-termfuture",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "NL_wind_national_near-termfuture",
+                        "description": "Nationally-aggregated near-term future wind generation capacity factor in Netherlands",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "NL",
+                            "Attribute": "near-termfuture",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "NL_wind_offshore_near-termfuture",
+                        "description": "Offshore near-term future wind generation capacity factor in Netherlands",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "NL",
+                            "Attribute": "near-termfuture",
+                            "Variable": "wind_offshore"
+                        }
+                    },
+                    {
+                        "name": "NL_wind_onshore_near-termfuture",
+                        "description": "Onshore near-term future wind generation capacity factor in Netherlands",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "NL",
+                            "Attribute": "near-termfuture",
+                            "Variable": "wind_onshore"
+                        }
+                    },
+                    {
+                        "name": "NO_pv_national_current",
+                        "description": "Nationally-aggregated current pv generation capacity factor in Norway",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "NO",
+                            "Attribute": "current",
+                            "Variable": "pv_national"
+                        }
+                    },
+                    {
+                        "name": "NO_wind_national_current",
+                        "description": "Nationally-aggregated current wind generation capacity factor in Norway",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "NO",
+                            "Attribute": "current",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "NO_wind_offshore_current",
+                        "description": "Offshore current wind generation capacity factor in Norway",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "NO",
+                            "Attribute": "current",
+                            "Variable": "wind_offshore"
+                        }
+                    },
+                    {
+                        "name": "NO_wind_onshore_current",
+                        "description": "Onshore current wind generation capacity factor in Norway",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "NO",
+                            "Attribute": "current",
+                            "Variable": "wind_onshore"
+                        }
+                    },
+                    {
+                        "name": "NO_wind_national_long-termfuture",
+                        "description": "Nationally-aggregated long-term future wind generation capacity factor in Norway",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "NO",
+                            "Attribute": "long-termfuture",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "NO_wind_national_near-termfuture",
+                        "description": "Nationally-aggregated near-term future wind generation capacity factor in Norway",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "NO",
+                            "Attribute": "near-termfuture",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "NO_wind_offshore_near-termfuture",
+                        "description": "Offshore near-term future wind generation capacity factor in Norway",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "NO",
+                            "Attribute": "near-termfuture",
+                            "Variable": "wind_offshore"
+                        }
+                    },
+                    {
+                        "name": "NO_wind_onshore_near-termfuture",
+                        "description": "Onshore near-term future wind generation capacity factor in Norway",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "NO",
+                            "Attribute": "near-termfuture",
+                            "Variable": "wind_onshore"
+                        }
+                    },
+                    {
+                        "name": "PL_pv_national_current",
+                        "description": "Nationally-aggregated current pv generation capacity factor in Poland",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "PL",
+                            "Attribute": "current",
+                            "Variable": "pv_national"
+                        }
+                    },
+                    {
+                        "name": "PL_wind_national_current",
+                        "description": "Nationally-aggregated current wind generation capacity factor in Poland",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "PL",
+                            "Attribute": "current",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "PL_wind_national_long-termfuture",
+                        "description": "Nationally-aggregated long-term future wind generation capacity factor in Poland",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "PL",
+                            "Attribute": "long-termfuture",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "PL_wind_national_near-termfuture",
+                        "description": "Nationally-aggregated near-term future wind generation capacity factor in Poland",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "PL",
+                            "Attribute": "near-termfuture",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "PT_pv_national_current",
+                        "description": "Nationally-aggregated current pv generation capacity factor in Portugal",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "PT",
+                            "Attribute": "current",
+                            "Variable": "pv_national"
+                        }
+                    },
+                    {
+                        "name": "PT_wind_national_current",
+                        "description": "Nationally-aggregated current wind generation capacity factor in Portugal",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "PT",
+                            "Attribute": "current",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "PT_wind_national_long-termfuture",
+                        "description": "Nationally-aggregated long-term future wind generation capacity factor in Portugal",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "PT",
+                            "Attribute": "long-termfuture",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "RO_pv_national_current",
+                        "description": "Nationally-aggregated current pv generation capacity factor in Romania",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "RO",
+                            "Attribute": "current",
+                            "Variable": "pv_national"
+                        }
+                    },
+                    {
+                        "name": "RO_wind_national_current",
+                        "description": "Nationally-aggregated current wind generation capacity factor in Romania",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "RO",
+                            "Attribute": "current",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "RO_wind_national_near-termfuture",
+                        "description": "Nationally-aggregated near-term future wind generation capacity factor in Romania",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "RO",
+                            "Attribute": "near-termfuture",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "RS_pv_national_current",
+                        "description": "Nationally-aggregated current pv generation capacity factor in Serbia",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "RS",
+                            "Attribute": "current",
+                            "Variable": "pv_national"
+                        }
+                    },
+                    {
+                        "name": "SE_pv_national_current",
+                        "description": "Nationally-aggregated current pv generation capacity factor in Sweden",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "SE",
+                            "Attribute": "current",
+                            "Variable": "pv_national"
+                        }
+                    },
+                    {
+                        "name": "SE_wind_national_current",
+                        "description": "Nationally-aggregated current wind generation capacity factor in Sweden",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "SE",
+                            "Attribute": "current",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "SE_wind_offshore_current",
+                        "description": "Offshore current wind generation capacity factor in Sweden",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "SE",
+                            "Attribute": "current",
+                            "Variable": "wind_offshore"
+                        }
+                    },
+                    {
+                        "name": "SE_wind_onshore_current",
+                        "description": "Onshore current wind generation capacity factor in Sweden",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "SE",
+                            "Attribute": "current",
+                            "Variable": "wind_onshore"
+                        }
+                    },
+                    {
+                        "name": "SE_wind_national_long-termfuture",
+                        "description": "Nationally-aggregated long-term future wind generation capacity factor in Sweden",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "SE",
+                            "Attribute": "long-termfuture",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "SE_wind_national_near-termfuture",
+                        "description": "Nationally-aggregated near-term future wind generation capacity factor in Sweden",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "SE",
+                            "Attribute": "near-termfuture",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "SE_wind_offshore_near-termfuture",
+                        "description": "Offshore near-term future wind generation capacity factor in Sweden",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "SE",
+                            "Attribute": "near-termfuture",
+                            "Variable": "wind_offshore"
+                        }
+                    },
+                    {
+                        "name": "SE_wind_onshore_near-termfuture",
+                        "description": "Onshore near-term future wind generation capacity factor in Sweden",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "SE",
+                            "Attribute": "near-termfuture",
+                            "Variable": "wind_onshore"
+                        }
+                    },
+                    {
+                        "name": "SI_pv_national_current",
+                        "description": "Nationally-aggregated current pv generation capacity factor in Slovenia",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "SI",
+                            "Attribute": "current",
+                            "Variable": "pv_national"
+                        }
+                    },
+                    {
+                        "name": "SI_wind_national_current",
+                        "description": "Nationally-aggregated current wind generation capacity factor in Slovenia",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "SI",
+                            "Attribute": "current",
+                            "Variable": "wind_national"
+                        }
+                    },
+                    {
+                        "name": "SK_pv_national_current",
+                        "description": "Nationally-aggregated current pv generation capacity factor in Slovakia",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "SK",
+                            "Attribute": "current",
+                            "Variable": "pv_national"
+                        }
+                    },
+                    {
+                        "name": "SK_wind_national_current",
+                        "description": "Nationally-aggregated current wind generation capacity factor in Slovakia",
+                        "type": "number (float)",
+                        "opsd-properties": {
+                            "Region": "SK",
+                            "Attribute": "current",
+                            "Variable": "wind_national"
+                        }
+                    }
+                ],
+                "primaryKey": "time"
+            },
+            "alternative_formats": [
+                {
+                    "path": "data_singleindex.csv",
+                    "stacking": "Singleindex",
+                    "format": "csv"
+                },
+                {
+                    "path": "data_multiindex.csv",
+                    "stacking": "Multiindex",
+                    "format": "csv"
+                },
+                {
+                    "path": "data_stacked.csv",
+                    "stacking": "Stacked",
+                    "format": "csv"
+                }
+            ],
+            "path": "data_singleindex.csv",
+            "dialect": {
+                "delimiter": ",",
+                "csvddfVersion": 1.0,
+                "lineTerminator": "\n",
+                "header": true
+            },
+            "format": "csv"
+        }
+    ],
+    "geographical-scope": "36 European countries",
+    "hide": "yes",
+    "name": "ninja_european_capacity_factors",
+    "long_description": "This data package contains simulated wind and PV capacity factors from Renewables.ninja. License: Creative Commons Attribution-NonCommercial 4.0, https://creativecommons.org/licenses/by-nc/4.0/. References: https://doi.org/10.1016/j.energy.2016.08.060 and https://doi.org/10.1016/j.energy.2016.08.068"
+}
