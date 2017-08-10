@@ -45,12 +45,13 @@ country_map = {
 
 
 metadata_head = '''
-hide: 'yes'
 name: ninja_pv_wind_profiles
 title: Renewables.ninja PV and Wind Profiles
 description: Simulated hourly country-aggregated PV and wind capacity factors for Europe
 long_description: 'This data package contains simulated wind and PV capacity factors from Renewables.ninja, at hourly resolution, for all European countries. Unlike the time series data package, which contains data reported from network operators, this package contains simulated data using historical weather conditions.\n\n -- License: Creative Commons Attribution-NonCommercial 4.0, https://creativecommons.org/licenses/by-nc/4.0/.\n\n-- More information and references to cite when using these data: https://doi.org/10.1016/j.energy.2016.08.060 and https://doi.org/10.1016/j.energy.2016.08.068\n\n-- The data are generated using the MERRA-2 reanalysis, for current PV and Wind capacities in Europe. For more data, e.g. PV simulations based on the SARAH dataset and future wind capacity factors, see https://www.renewables.ninja/#/country'
 documentation: 'https://github.com/renewables-ninja/datapackage_pv_wind_profiles/blob/{version}/main.ipynb'
+attribution: 'Attribution should be given as follows:<ul style=\"margin-bottom: 0;\"><li style=\"margin-bottom: 0;\">For academic and professional use (presentations, journal articles, trade publications, etc): Please cite the papers describing our methods [1, 2] and, if possible, link to www.renewables.ninja.<li style=\"margin-bottom: 0;\">For other use: Please either cite the papers [1, 2] or link to www.renewables.ninja, as is more appropriate.</ul>[1] Pfenninger, Stefan and Staffell, Iain (2016). Long-term patterns of European PV output using 30 years of validated hourly reanalysis and satellite data. Energy 114, pp. 1251-1265. doi: 10.1016/j.energy.2016.08.060<br>[2] Staffell, Iain and Pfenninger, Stefan (2016). Using Bias-Corrected Reanalysis to Simulate Current and Future Wind Power Output. Energy 114, pp. 1224-1239. doi: 10.1016/j.energy.2016.08.068'
+external: true
 version: '{version}'
 last_changes: '{changes}'
 keywords:
@@ -66,10 +67,9 @@ contributors:
     name: Stefan Pfenninger
     email: stefan.pfenninger@usys.ethz.ch
 licenses:
-  - url: https://creativecommons.org/licenses/by-nc/4.0/
-    name: Creative Commons Attribution-NonCommercial
-    version: 4.0
-    id: cc-by-nc-4.0
+  - name: 'CC-BY-NC-4.0'
+    path: https://creativecommons.org/licenses/by-nc/4.0/
+    title: Creative Commons Attribution-NonCommercial 4.0 International
 sources:
   - name: Renewables.ninja
     web: https://www.renewables.ninja/#/country
